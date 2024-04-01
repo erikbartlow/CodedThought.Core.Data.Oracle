@@ -8,11 +8,11 @@
 	<FileVersion>7.0.1.0</FileVersion>
 	<VersionPrefix>7.0.1-alpha</VersionPrefix>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<Title>CodedThought.Core.Data.MySql</Title>
+	<Title>CodedThought.Core.Data.Oracle</Title>
 	<Authors>Erik Bartlow</Authors>
 	<Company>CodedThought</Company>
-	<Description>The CodedThought.Core.Data.MySql package is a custom database provider for use with MySql Server.</Description>
-	<PackageProjectUrl>https://github.com/erikbartlow/CodedThought.Core</PackageProjectUrl>
+	<Description>The CodedThought.Core.Data.Oracle package is a custom database provider for use with Oracle Server.</Description>
+	<PackageProjectUrl>https://github.com/erikbartlow/CodedThought.Core.Data.Oracle</PackageProjectUrl>
 	<RepositoryType>git</RepositoryType>
 	<RepositoryUrl>https://github.com/erikbartlow/CodedThought.Core</RepositoryUrl>
 	<IncludeContentInPack>true</IncludeContentInPack>
@@ -23,6 +23,7 @@
 	<IncludeReferencedProjects>true</IncludeReferencedProjects>
 	<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
+	<Copyright>Copyright (c) 2024, Erik Bartlow, All Rights Reserved</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CodedThought.Core\CodedThought.Core.csproj" />
+    <ProjectReference Include="..\CodedThought.Core\CodedThought.Core\CodedThought.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

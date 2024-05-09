@@ -4,9 +4,9 @@
 	<TargetFramework>net8.0</TargetFramework>
 	<ImplicitUsings>enable</ImplicitUsings>
 	<Nullable>enable</Nullable>
-	<AssemblyVersion>7.0.1.0</AssemblyVersion>
-	<FileVersion>7.0.1.0</FileVersion>
-	<VersionPrefix>7.0.1-alpha</VersionPrefix>
+	<AssemblyVersion>8.0.0.4</AssemblyVersion>
+	<FileVersion>8.0.0.4</FileVersion>
+	<VersionPrefix>8.0.0-alpha-4</VersionPrefix>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>CodedThought.Core.Data.Oracle</Title>
 	<Authors>Erik Bartlow</Authors>

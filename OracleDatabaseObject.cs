@@ -645,7 +645,7 @@ namespace CodedThought.Core.Data.Oracle
                 // Remove any brackets since the definitiion query doesn't support that.
                 string tName = tableName.Replace("[", "").Replace("]", "");
                 string schemaName = DefaultSchemaName.Replace("[", "").Replace("]", "");
-                if (tName.Split(".".ToCharArray()).Length > 0)
+                if (tName.Split(".".ToCharArray()).Length > 1)
                 {
                     // The schema name appears to have been passed along with the table name. So parse them out and use them instead of the default values.
                     string[] tableNameData = tName.Split(".".ToCharArray());

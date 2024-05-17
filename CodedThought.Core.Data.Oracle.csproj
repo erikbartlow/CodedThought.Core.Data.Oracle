@@ -4,9 +4,9 @@
 	<TargetFramework>net8.0</TargetFramework>
 	<ImplicitUsings>enable</ImplicitUsings>
 	<Nullable>enable</Nullable>
-	<AssemblyVersion>8.0.0.4</AssemblyVersion>
-	<FileVersion>8.0.0.4</FileVersion>
-	<VersionPrefix>8.0.0-alpha-4</VersionPrefix>
+	<AssemblyVersion>8.0.0.5</AssemblyVersion>
+	<FileVersion>8.0.0.5</FileVersion>
+	<VersionPrefix>8.0.0-alpha-5</VersionPrefix>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>CodedThought.Core.Data.Oracle</Title>
 	<Authors>Erik Bartlow</Authors>
@@ -14,7 +14,7 @@
 	<Description>The CodedThought.Core.Data.Oracle package is a custom database provider for use with Oracle Server.</Description>
 	<PackageProjectUrl>https://github.com/erikbartlow/CodedThought.Core.Data.Oracle</PackageProjectUrl>
 	<RepositoryType>git</RepositoryType>
-	<RepositoryUrl>https://github.com/erikbartlow/CodedThought.Core</RepositoryUrl>
+	<RepositoryUrl>https://github.com/erikbartlow/CodedThought.Core.Data.Oracle</RepositoryUrl>
 	<IncludeContentInPack>true</IncludeContentInPack>
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
 	<PackageLicenseFile>LICENSE</PackageLicenseFile>

@@ -7,6 +7,7 @@ using System.Data;
 using System.Text;
 using Oracle.ManagedDataAccess.Client;
 using Microsoft.Data.SqlClient;
+
 namespace CodedThought.Core.Data.Oracle
 {
 
@@ -23,9 +24,7 @@ namespace CodedThought.Core.Data.Oracle
 
         #region Constructor
 
-        public OracleDatabaseObject()
-        {
-        }
+        public OracleDatabaseObject() : base() => _connection = new();
 
         #endregion Constructor
 
@@ -1086,6 +1085,9 @@ namespace CodedThought.Core.Data.Oracle
                 throw new ArgumentException("Oracle data type not supported or recognized.");
             }
         }
+
+        protected override Task<IDbConnection> OpenConnectionAsync() => throw new NotImplementedException();
+        public override Task<bool> TestConnectionAsync() => throw new NotImplementedException();
 
         #endregion
 
